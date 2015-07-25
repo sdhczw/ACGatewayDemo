@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\ACGatewayDemo.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>ALL</name>
+      <member>
+        <project>ACGatewayDemo</project>
+        <configuration>CoordinatorEB</configuration>
+      </member>
+      <member>
+        <project>ACGatewayDemo</project>
+        <configuration>RouterEB</configuration>
+      </member>
+      <member>
+        <project>ACGatewayDemo</project>
+        <configuration>EndDeviceEB</configuration>
+      </member>
+      <member>
+        <project>ACGatewayDemo</project>
+        <configuration>RouterZLight</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

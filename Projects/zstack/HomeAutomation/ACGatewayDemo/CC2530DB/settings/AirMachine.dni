@@ -1,0 +1,48 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-2046124295
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[struct_types]
+Fmt0=AC_MessageHead-MsgCode	4	0
+Fmt1=AC_MessageHead-Payloadlen	3	0
+Fmt2=aging_end_device_t-endDevCfg	4	0
+Fmt3=associated_devices_t-addrIdx	4	0
+Fmt4=associated_devices_t-keepaliveRcv	4	0
+Fmt5=nwkIB_t-channelList	4	0
+Fmt6=nwkIB_t-nwkDevAddress	4	0
+Fmt7=nwkIB_t-nwkPanId	4	0
+[array_types]
+Fmt0=uint8 [8]	4	0
+[watch_formats]
+Fmt0={W}0:duration	3	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\Source\ac_api.c}.4.1" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\..\Source\ac_hal.c}.233.11" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\..\Source\Coordinator.c}.364.19" 1 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$\..\Source\Coordinator.c}.171.3" 1 0 0 0 "" 0 ""
+Count=4
+[ChipconEmu]
+Stop timers on halt=0
+Leave target running=1
+[Aliases]
+Count=0
+SuppressDialog=0
